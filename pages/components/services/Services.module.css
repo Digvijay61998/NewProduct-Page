@@ -1,0 +1,100 @@
+.benefitsgrid{
+    position: relative;
+    background-color: #101010;
+    padding: 80px 4%;
+}
+.wcontainer{
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    max-width: 1260px;
+    margin-right: auto;
+    margin-left: auto;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.Boostcentertext{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Boostcarditemcontent{
+    opacity: 1;
+}
+.grid13{
+margin-top: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Boostwlayoutgrid{
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+.Boostcarditemcontent{
+    color: #d4dce5;
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: #17171a;
+    box-shadow: 21px 21px 30px 0 rgb(0 0 0 / 90%);
+}
+
+.Boostbenefitsicon{
+    width: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+
+
+.h4{
+
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: 600;
+
+}
