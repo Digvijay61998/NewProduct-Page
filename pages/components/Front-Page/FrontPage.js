@@ -1,8 +1,10 @@
 import classes from "./FrontPage.module.css"
-import React from 'react'
 import Image from 'next/image'
+import React from 'react';
+
 
 function FrontPage() {
+
     return (
        <div className={classes.frontPage}>
            <section className={classes.section}>
