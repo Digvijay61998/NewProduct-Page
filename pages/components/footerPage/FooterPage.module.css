@@ -28,7 +28,6 @@
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
-    border-bottom: 1px solid hsla(0,0%,100%,.1)
 }
 
 .footer_top_container{

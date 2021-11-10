@@ -4,7 +4,7 @@ import HorizontalScroll from 'react-scroll-horizontal'
 export default function StepsForBlog() {
     return (
     <div className={classes.App}>
-      <HorizontalScroll reverseScroll={true}>
+      <HorizontalScroll reverseScroll={true} className={classes.HorizontalScroll}>
           <div className={classes.main}>
             <img className={classes.img} src="https://www.host.ie/wp-content/uploads/2019/06/WordPress-updates.jpeg" />
               <h1 className={classes.h1}>
