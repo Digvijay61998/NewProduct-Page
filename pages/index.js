@@ -22,7 +22,7 @@ export default function Home() {
       setCursorY(e.pageY)
     })
     
-}, [ window.addEventListener]);
+}, []);
 
   return (
    <>
