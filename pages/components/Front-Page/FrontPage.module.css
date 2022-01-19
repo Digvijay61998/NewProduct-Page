@@ -2,7 +2,7 @@
     font-family: gilroy-regular;
     font-variant-ligatures: none;
     min-height: 100vh;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0);
     margin: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -25,14 +25,17 @@
   }
 
 .section{
-    background-color: rgb(15, 15, 15);
+    background-color: #0a0b10;
     color: rgb(248, 248, 248);
     width: 100vw;
     min-height: 100vh;
     position: relative;
     padding: 60px 200px 250px;
     overflow: hidden;
-    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png);
+    /* background-image: url("https://www.timeshighereducation.com/sites/default/files/Pictures/web/j/f/p/shutterstock_151126472.jpg"); */
+    
+
+    /* background-image: url("../../../public/back3.png"); */
     background-size: cover;
     background-position: right bottom;
     display: flex;

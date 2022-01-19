@@ -1,6 +1,6 @@
 .body{
     background-image: linear-gradient(
-        180deg, #57b6d8, #c1e9fc);
+        180deg, #14104a, #14104a);
 }
 
 
@@ -9,12 +9,17 @@
     display:flex;
     align-items: center;
     min-height: 80vh;
-    background-image: linear-gradient(
-        180deg, #57b6d8, #c1e9fc);
+ 
     overflow: hidden;
     opacity: 1 !important;
     }
 
+    .waves{
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        top: -1rem !important;
+    }
 .productpageImage{
     margin-top: 4%;
     margin-left: 5%;
@@ -89,7 +94,9 @@
     height: 25px;
     background:rgba(255, 255, 255, 0.979);
     animation:box 20s linear infinite;
-    bottom: -150px
+    bottom: -150px;
+    border-radius: 10px;
+
 }
 .boxarea li:nth-child(1){
     left:86%;
@@ -162,7 +169,7 @@ color: #645757;
     text-align: center;
     letter-spacing: -1.095em;
     color: #645757;
-
+    border-radius: 10px;
 }
 
 .boxarea li:nth-child(5){
@@ -291,4 +298,11 @@ color: #645757;
 
 .productImagepng {
     border-radius: 50px;
+}
+
+.waveimg{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -1rem;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./UpperFooter.module.css"
 
+
 export default function UpperFooter() {
     return (
                 <div className={`${classes.uppersection} ${classes.upperwfsection}`}>

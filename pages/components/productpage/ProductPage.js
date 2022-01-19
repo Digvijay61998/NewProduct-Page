@@ -3,10 +3,16 @@ import BlogIcon from "../../../public/BlogIcon.gif";
 import Image from 'next/image'
 import classes from "./ProductPage.module.css"
 import "aos/dist/aos.css";
+import waves from "../../../public/waves.svg"
 
 export default function Productpage() {
     return (
+        <>
         <div className={classes.body}>
+        <img src='/waves.svg' alt="wave" className={classes.waves} />
+
+            <div className={classes.waves}>
+        </div>
             <div className={classes.productpage} data-aos="fade-right">
                 <div className={classes.productpageImage}>
                     <Image src={BlogIcon} data-aos="fade-right" className={classes.productImagepng} alt="blog-image" />
@@ -28,5 +34,6 @@ export default function Productpage() {
                </ul>
             </div>
         </div>
+        </>
     )
 }

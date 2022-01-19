@@ -1,0 +1,18 @@
+.spaceimg{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+
+  .space3{
+    right: -19px;
+        top: 173px;
+        height: 71%;
+        width: 37%;
+        filter: brightness(100%);
+        z-index: 1;
+  }
+  .space4{
+    filter: brightness(91%);
+    left: 14px;
+  }
