@@ -1,7 +1,7 @@
 import classes from "./FrontPage.module.css"
 import Image from 'next/image'
 import React from 'react';
-
+import icon from "../../../public/icon.png"
 
 function FrontPage() {
 
@@ -9,8 +9,8 @@ function FrontPage() {
        <div className={classes.frontPage}>
            <section className={classes.section}>
             <div className={classes.NevBar}>
-               <div className={classes.logoDiv}>  <Image className={classes.logo} src="/Sking.png" alt="logo" width="30px" height="40px"/>
-               <h1>startup kingdoms</h1>
+               <div className={classes.logoDiv}>  <Image className={classes.logo} src={icon} alt="logo" width="100%" height="100%"/>
+               <h1 className={classes.name}>startup kingdoms</h1>
                 
             </div>
             <div className={classes.headerline}>

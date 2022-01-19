@@ -35,7 +35,7 @@ function Aboutus() {
           <img src="/aboutCustomer.png" alt="Customer delight"/>
         </div>
 <h5 className={classes.Abouth5}>Customer delight</h5>
-<p className={classes.Aboutp}>"Customer love matters. Each of our brands needs to be in the top decile of customer experience"</p>
+<p className={classes.Aboutp}>Customer love matters. Each of our brands needs to be in the top decile of customer experience</p>
         </div>
       </div>
       <div className={`${classes.colsm12} ${classes.collg4}`}>
@@ -44,7 +44,7 @@ function Aboutus() {
           <img src="/aboutCaring.png" alt="Caring Meritocracy"/>
         </div>
 <h5 className={classes.Abouth5}>Caring Meritocracy</h5>
-<p className={classes.Aboutp}>"Attract and grow the best talent. Create an inclusive culture where the best ideas win and you have the obligation to engage and dissent"</p>
+<p className={classes.Aboutp}>Attract and grow the best talent. Create an inclusive culture where the best ideas win and you have the obligation to engage and dissent</p>
         </div>
       </div>
       <div className={`${classes.colsm12} ${classes.collg4}`}>
@@ -53,7 +53,7 @@ function Aboutus() {
           <img src="/aboutFrugality.png" alt="Frugality"/>
         </div>
 <h5 className={classes.Abouth5}>Frugality</h5>
-<p className={classes.Aboutp}>"We are frugal with capital and use innovation to grow our brands in a sustainable manner"</p>
+<p className={classes.Aboutp}>We are frugal with capital and use innovation to grow our brands in a sustainable manner</p>
         </div>
       </div>
       </div>

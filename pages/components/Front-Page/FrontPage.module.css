@@ -15,9 +15,7 @@
 
 
 
-.logo{
-    background-image: url('./Sking.png')
-}
+
 
 .cursor{
     width : 20px;
@@ -62,12 +60,22 @@
     align-items: center;
 }
 
+.name{ 
+        margin-left: 26px;
+}
+
+.logo{
+    background-color: rgb(251, 251, 251);
+    border-radius:50em;
+}
+
 .logoDiv{
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    width: 49px;
-    height: 66px;
+    max-width: 14vw;
+    height: 50px;
+    justify-content: space-around;
 }
 @media screen and (max-width: 425px) {
     .logoDiv {
