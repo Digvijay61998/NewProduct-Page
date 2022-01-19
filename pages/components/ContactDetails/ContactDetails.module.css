@@ -3,14 +3,26 @@
     height: 145vh;
     background-color:white
 }
+/* @media screen and (min-width: 1440px) {
+    .ContactDetails {
+        height: 160vh;
+
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .ContactDetails {
+        height: 160vh;
+
+    }
+  } */
+
 .Contactcontacts{
     position: relative;
-    margin-bottom: 182px;
     z-index: 3;
-    width: 100%;
+    width: 75%;
     height: 100vh;
     background-color:white;
-    margin-left: 25%;
+    margin-left: 15%;
 
 }
 
@@ -23,7 +35,7 @@
 
 .Contactcontacts__container{
     position: relative;
-    padding: 162px 100px 60px;
+    padding:76px 15px 30px;
     background: #fff;
     width: 50%;
     height: 100vh;
@@ -72,6 +84,16 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .Contactcontacts__title {
+        margin-bottom: 7px;
+            font-size: 30px;
+        
+    }
+
+}
+
+
 .Contactcontacts__info {
     max-width: 366px;
     color: #6b6b6b;
@@ -83,6 +105,14 @@
     z-index: 3;
     display: flex;
     margin-bottom: 93px;
+
+}
+
+@media screen and (max-width: 425px) {
+    .Contactcontacts__row {
+        flex-wrap: wrap;
+        display: flex;
+    }
 
 }
 
@@ -115,6 +145,14 @@
     padding: 20px 72px 20px 24px;
 }
 
+@media screen and (max-width: 425px) {
+    .Contactfield__textarea {
+        height: 112px;
+    }
+
+}
+
+
 .Contactcontacts__text{
 
 }
@@ -132,6 +170,12 @@
     flex-shrink: 0;
     width: 468px;
 }
+
+ @media screen and (max-width: 768px) {
+    .Contactcontacts__form {
+        width: 308px;
+    }
+  }
 .Contactcontacts__field:not(:last-child) {
     margin-bottom: 24px;
 }
@@ -144,6 +188,14 @@
     height: 72px;
     padding: 0 72px 0 24px;
 }
+
+@media screen and (max-width: 768px) {
+    .Contactfield__input {
+        height: 50px;
+    }
+  }
+
+
 
 .Contactfield__input, .Contactfield__textarea, .Contactfield__select {
     width: 100%;
@@ -218,8 +270,8 @@
 }
 
 .Contactfigures__preview .Contactfigures__pic {
-    right: 110px;
-    top: 133px;
-    position: absolute;
-    width: 43%;
+    right: -196px;
+        top: 244px;
+        position: absolute;
+        width: 87%;
 }

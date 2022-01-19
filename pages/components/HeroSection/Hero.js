@@ -13,7 +13,7 @@ const move = keyframes`
 `;
 
 const HomeSection = styled.section`
-  width: 99vw;
+  width: 100%;
   height: 45vw;
   background-color: #0a0b10;
   display: flex;

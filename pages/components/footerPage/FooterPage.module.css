@@ -14,6 +14,12 @@
     font-size: .8em;
 
 }
+@media screen and (max-width: 425px) {
+    .footer_top_container {
+        flex-wrap: wrap !important;
+        display: flex !important;
+    }
+  }
 
 .container{
     position: relative;
